@@ -79,7 +79,7 @@ All contributions are welcome — bug fixes, feature enhancements, or documentat
 Please give appropriate credit to the original author if you use or modify this tool in your own projects.
 
 ## 📜 License
-This project is licensed under the MIT License — see the LICENSE file for details.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ## 👤 Author
 **Ayush Mani**  
