@@ -48,33 +48,38 @@ Our analysis covers comprehensive EDA and embeddings visualization:
   <img src="images/rag_performance.png" width="45%">
 </p>
 
-## 🛠️ Built With
-* **Python** 
-* **SentenceTransformers** (Hugging Face)
-* **Pandas & NumPy** (Data Manipulation)
-* **Scikit-Learn** (Similarity Computation)
+## 🛠️ Tech Stack
+* Python 3.x
+* sentence-transformers
+* scikit-learn
+* XGBoost
+* UMAP
+* matplotlib, seaborn
 
-## 💻 Getting Started
+## 🚀 Quick Start
 
-To run this project locally, follow these steps:
+```bash
+# Clone repository
+git clone https://github.com/m1n1v1rus/Semantic_Search_System___Flipkart_Reviews.git
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/m1n1v1rus/Semantic_Search_System___Flipkart_Reviews.git
-   cd Semantic_Search_System___Flipkart_Reviews
-   ```
-2. **Install Dependencies**
-   ```bash
-   pip install sentence-transformers pandas scikit-learn numpy jupyter matplotlib seaborn
-   ```
-3. **Launch the Notebook**
-   ```bash
-   jupyter notebook Semantic_Search_System___Flipkart_Reviews.ipynb
-   ```
-   *Alternatively, you can run the project directly in your browser using the [Google Colab Link](https://colab.research.google.com/drive/1JkNjYz4vSFck50ccEScJeVodCrEzVpCZ) at the top of the page!*
+# Navigate into project directory
+cd Semantic_Search_System___Flipkart_Reviews
+
+# Install requirements
+pip install -r requirements.txt
+
+# Run notebook
+jupyter notebook Semantic_Search_System___Flipkart_Reviews.ipynb
+```
 
 ## 🤝 Contributing
-Contributions make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+All contributions are welcome — bug fixes, feature enhancements, or documentation improvements!
 
-## 📄 License
-Distributed under the MIT License.
+Please give appropriate credit to the original author if you use or modify this tool in your own projects.
+
+## 📜 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+## 👤 Author
+**Ayush Mani**  
+🔗 GitHub: [@m1n1v1rus](https://github.com/m1n1v1rus)
