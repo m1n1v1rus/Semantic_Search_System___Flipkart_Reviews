@@ -1,57 +1,59 @@
-<p align="center">
-  <img src="images/Project_Banner.png" alt="Project Banner" width="80%" style="max-width: 1000px;"/>
-</p>
+<div align="center">
+  <img src="images/Project_Banner.png" alt="Semantic Search System Banner" width="100%" />
+</div>
 
-<h1 align="center">🛍️ Semantic Search System for Flipkart Reviews 🔍</h1>
+<h1 align="center">🛒 Context-Aware Semantic Search for Flipkart Reviews</h1>
 
 <p align="center">
+  <a href="https://colab.research.google.com/drive/1JkNjYz4vSFck50ccEScJeVodCrEzVpCZ">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+  </a>
   <a href="#">
     <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python">
   </a>
   <a href="#">
     <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
   </a>
-  <a href="https://github.com/m1n1v1rus/Semantic_Search_System___Flipkart_Reviews/stargazers">
-    <img src="https://img.shields.io/github/stars/m1n1v1rus/Semantic_Search_System___Flipkart_Reviews" alt="Stars">
-  </a>
 </p>
 
-## 📌 Project Overview
-An intelligent **Semantic Search System** designed specifically for **Flipkart Reviews**. Instead of traditional keyword matching, this system uses advanced Sentence Transformers to understand the context and meaning of user queries, fetching the most contextually relevant product reviews.
+## 💡 About The Project
+Traditional keyword-based search engines often fail to capture the true *meaning* of a user's query. This project implements a robust **Semantic Search Engine** specifically tailored for e-commerce, using a real-world dataset of **Flipkart Product Reviews**. 
 
-## ✨ Features
-- **Data Preprocessing** - Comprehensive cleaning of raw Flipkart review data.
-- **Sentence Embeddings** - Utilizes pre-trained transformer models to convert text into dense vector representations.
-- **Semantic Search Engine** - Finds the most relevant reviews based on meaning, not just exact words.
-- **Cosine Similarity Analysis** - Accurately measures the similarity between the user's query and the reviews.
-- **Custom Querying** - Test the system with your own natural language search queries.
+By leveraging state-of-the-art **Sentence Transformers**, the system converts text into high-dimensional vector embeddings. This allows it to understand context and retrieve the most relevant reviews based on meaning rather than exact word matches.
 
-## 📂 Project Structure
-- `Semantic_Search_System___Flipkart_Reviews.ipynb`: Main Jupyter Notebook with complete implementation.
-- `data/`: Contains the Flipkart reviews dataset (`.csv`).
-- `images/`: Stores assets like the project banner.
+## 🚀 Key Highlights
+- **Intelligent Discovery:** Matches complex, natural language queries (e.g., *"comfortable shoes for long runs"*) with the most relevant product reviews.
+- **Advanced Embeddings:** Utilizes pre-trained NLP transformer models to generate dense vectors for both queries and review data.
+- **Cosine Similarity:** Accurately ranks search results by calculating the mathematical distance between the query vector and review vectors.
+- **End-to-End Pipeline:** Includes complete data preprocessing, exploratory data analysis (EDA), embedding generation, and search execution.
 
-## 🚀 How to Run
-1. Clone the repository:
+## 🛠️ Built With
+* **Python** 
+* **SentenceTransformers** (Hugging Face)
+* **Pandas & NumPy** (Data Manipulation)
+* **Scikit-Learn** (Similarity Computation)
+
+## 💻 Getting Started
+
+To run this project locally, follow these steps:
+
+1. **Clone the repo**
    ```bash
    git clone https://github.com/m1n1v1rus/Semantic_Search_System___Flipkart_Reviews.git
-   ```
-2. Navigate to the project directory:
-   ```bash
    cd Semantic_Search_System___Flipkart_Reviews
    ```
-3. Install required dependencies (e.g., `sentence-transformers`, `pandas`, `scikit-learn`):
+2. **Install Dependencies**
    ```bash
-   pip install sentence-transformers pandas scikit-learn
+   pip install sentence-transformers pandas scikit-learn numpy jupyter
    ```
-4. Open the Jupyter Notebook:
+3. **Launch the Notebook**
    ```bash
    jupyter notebook Semantic_Search_System___Flipkart_Reviews.ipynb
    ```
-5. Run the cells to see the Semantic Search in action!
+   *Alternatively, you can run the project directly in your browser using the [Google Colab Link](https://colab.research.google.com/drive/1JkNjYz4vSFck50ccEScJeVodCrEzVpCZ) at the top of the page!*
 
 ## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/m1n1v1rus/Semantic_Search_System___Flipkart_Reviews/issues).
+Contributions make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## 📝 License
-This project is [MIT](LICENSE) licensed.
+## 📄 License
+Distributed under the MIT License.
