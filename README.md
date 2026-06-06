@@ -27,6 +27,27 @@ By leveraging state-of-the-art **Sentence Transformers**, the system converts te
 - **Cosine Similarity:** Accurately ranks search results by calculating the mathematical distance between the query vector and review vectors.
 - **End-to-End Pipeline:** Includes complete data preprocessing, exploratory data analysis (EDA), embedding generation, and search execution.
 
+## 📊 Exploratory Data Analysis & Visualizations
+Our analysis covers comprehensive EDA and embeddings visualization:
+
+### 1. Data Distribution & Dashboards
+<p align="center">
+  <img src="images/eda_advanced_dashboard.png" width="80%">
+  <img src="images/top_products_dashboard.png" width="80%">
+</p>
+
+### 2. Text Analysis & Wordclouds
+<p align="center">
+  <img src="images/eda_wordclouds.png" width="45%">
+  <img src="images/wordcloud_by_rating.png" width="45%">
+</p>
+
+### 3. Embeddings & Model Evaluation
+<p align="center">
+  <img src="images/pca_2d_visualization.png" width="45%">
+  <img src="images/rag_performance.png" width="45%">
+</p>
+
 ## 🛠️ Built With
 * **Python** 
 * **SentenceTransformers** (Hugging Face)
@@ -44,7 +65,7 @@ To run this project locally, follow these steps:
    ```
 2. **Install Dependencies**
    ```bash
-   pip install sentence-transformers pandas scikit-learn numpy jupyter
+   pip install sentence-transformers pandas scikit-learn numpy jupyter matplotlib seaborn
    ```
 3. **Launch the Notebook**
    ```bash
