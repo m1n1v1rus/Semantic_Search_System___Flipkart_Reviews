@@ -50,11 +50,12 @@ Our analysis covers comprehensive EDA and embeddings visualization:
 
 ## 🛠️ Tech Stack
 * Python 3.x
-* sentence-transformers
+* sentence-transformers & transformers
+* PyTorch
+* Faiss (Vector Search)
 * scikit-learn
-* XGBoost
-* UMAP
-* matplotlib, seaborn
+* pandas & numpy
+* matplotlib & scipy
 
 ## 🚀 Quick Start
 

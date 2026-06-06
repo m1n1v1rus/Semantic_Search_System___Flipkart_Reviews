@@ -1,9 +1,10 @@
 sentence-transformers
+transformers
+torch
+faiss-cpu
 scikit-learn
-xgboost
-umap-learn
-matplotlib
-seaborn
 pandas
 numpy
+scipy
+matplotlib
 jupyter
